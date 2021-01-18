@@ -1,0 +1,38 @@
+https://codepen.io/AMorris1214/pen/wvzQbwv
+1. What is Semantic HTML? Semantic Html clearly defines the content that's on the page
+    2. What is HTML used for? To structure a web page
+    3. What is an attribute and where do we put it? An atribute is a tag used to add additional information to HTML. You put it at the begenning of whatever information you're linking
+    4. What is the h1 tag used for? How many times should I use it on a page? h1 is a header tage. YOu only use it once
+    5. Name two tags that have required attributes? SRC & IMG
+    6. What do we put in the head of our HTML document? <html> or <body>
+    7. What is an id? something unique in a html document
+    8. What elements can I add an id to? any
+    9. How many times can I use the same id on a page? once
+    10. What is a class? used to specify one or more class to an element
+    11. What elements can I add a class to? any
+    12. How many times can I use the same class on a page? multiple
+    13. How do I get my link to open in a new tab? <a> tag
+    14. What is the alt attribute in the image tag used for? alternative if the image cannot be dispalyed in the broswer
+    15. How do I reference an id? # tag
+    16. What is the difference between a section and a div? section references a group of information while div doesnt define anything
+    17. What is CSS used for? to style your html
+    18. How to we select an element? Example - every h2 on the page? h2 {}
+    19. What is the difference between a class and an id? - Give me an example of when I might use each one class? class can define multiple elements and id only defines one element. An example of id is a name being Drew. That only applies to one thing. But a class can be class= name and can be used to reference a bunch of names
+    20. How do we select classes in CSS? .class
+    21. How do we select a p element with a single class of “human””? p.human
+    22. What is a parent child selector? When would this be useful? it can be used to reference a specific item in a something like an <ul> for examply
+    23. How do you select all links within a div with the class of sidebar? .sidebar a:link {}
+    24. What is a pseudo selector? a keyword added to change what elements do (hover)
+    25. What do we use the change the spacing between lines? line-height
+    26. What do we use to change the spacing between letters? letter-spacing
+    27. What do we use to to change everything to CAPITALS? lowercase? Capitalize? text-transform:
+    28. How do I add a 1px border around my div that is dotted and black? border:1px dotted black;
+    29. How do I select everything on the page? <body> around the whole text in html and reference .body in css
+    30. How do I write a comment in CSS? /* tag
+    31. How do I find out what file I am in, when I am using the command line? is command
+    32. Using the command line - how do I see a list of files/folders in my current folder? dir command
+    33. How do I remove a file via the command line? Why do I have to be careful with this? rm. you have to be careful because it cant be undone
+    34. Why should I use version control? you can check previous versions
+    35. How often should I commit to github? once.
+    36. What is the command we would use to push our repo up to github? git push
+    37. Walk me through Lambda's git flow. Open the project on github  https://github.com/LambdaSchool/Git-for-Web-Development-Project2.Fork it3.Click on clone and copy the clone url4.Open your terminal5.Type in cd Documents then hit enter6.Type in git clone (then paste the url and hit enter)7.Type cd G then hit tab and it should fill in the rest of the project file name8.Type in git checkout -b firstname-lastname and hit enter9.Type in touch firstname-lastname.txt and hit enter 10.Open your code editor like vs code, go to open file and you should find the file you just created with your name.txt11.Paste your codepen link in there12.Copy and paste those questions and answer them13.Then go back to the terminal and type in git add . (it’s a space then a period)14.Type in git status then hit enter15.It should say ready to commit16.Type in git commit -m “Completed Module” (make sure you put the message in quotes) then hit enter17.Type in git push origin -u firstname-lastname then hit enter18.Go back to github online19.Click on compare and pull request (green button)20.Change this main branch to your file name 21.Click on compare22.Then scroll to the bottom and click close
